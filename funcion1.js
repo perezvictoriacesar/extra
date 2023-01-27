@@ -1,0 +1,13 @@
+<script>
+function Calcula(numero=1)
+{
+let calculo = numero * numero;
+document.write(`<p/> Resultado = ${calculo} </p>`);
+}
+</script>
+</head>
+<body>
+<input type="button" onclick="Calcula()" value="Calculo">
+<input type="button" onclick="Calcula(5)" value="Otro Calculo ">
+    
+    }

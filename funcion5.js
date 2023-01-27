@@ -1,0 +1,10 @@
+function CambiaColor(nombreColor) {
+    let obj = document.getElementById("informacion");
+    obj.style.color = nombreColor;
+    }
+    </script>
+    </head>
+    <body>
+    <p id="informacion">Curso de ECMAScript6</p>
+    <button onclick="CambiaColor('blue');">azul</button>
+    <button onclick="CambiaColor('red');">rojo</button>

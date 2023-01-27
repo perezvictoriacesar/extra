@@ -1,0 +1,14 @@
+<title> Datos en Formularios </title>
+<script>
+function saludo()
+{
+let nom_usuario = document.fdatos.entrada.value
+document.writeln(`Hola, bon dia ${nom_usuario} `)
+}
+</script>
+</head>
+<body>
+<form name="fdatos">
+Escribe tu nombre: <input type="text" size="10" name="entrada"/>
+<input type="button" value="Pulsa aquí" onclick="saludo()" />
+</form>
